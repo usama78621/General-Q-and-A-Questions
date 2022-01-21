@@ -1,0 +1,82 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+  background-color: rgb(94, 177, 177);
+}
+.title{
+  text-align: center;
+  margin-top: 5rem;
+  margin-bottom: 3rem;
+  font-size: 1.5rem;
+}
+.center-seaction{
+    max-width: 620px;
+    margin:0 auto;
+}
+.qusetion{
+  background-color: #eee;
+    border-radius: 0.5rem;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 1.5rem 1.5rem 0 1.5rem;
+    margin-bottom: 2rem;
+}
+.qusetion-head{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-transform: capitalize;
+   padding-bottom: 1rem;
+   font-weight: bold;
+   font-size: 1.3rem;
+   color: rgb(35, 35, 124);
+}
+  .qusetion-body{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-transform: capitalize;
+   padding-bottom: 1rem;
+   padding: 1rem 0 1.5rem 0;
+   border-top: 1px solid rgba(0, 0, 0, 0.2);
+   font-size: 1.1rem;
+}
+.qusetion-btn{
+  font-size: 1.3rem;
+  outline: none;
+  border: none;
+  color: blueviolet;
+  background: transparent;
+  transition: all 0.3s linear;
+}
+.qusetion-btn:hover{
+  color: rgb(190, 76, 22);
+}
+.qusetion-body{
+  display: none;
+}
+.show-text .qusetion-body{
+  display: block;
+}
+ .minus-icon{
+  display: none;
+}
+.show-text .minus-icon{
+  display: inline;
+}
+.show-text .plus-icon{
+  display: none;
+}
+
+
+
+
+
+
+
+ 
+
+  
+  
